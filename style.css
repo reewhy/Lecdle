@@ -1,0 +1,256 @@
+*{
+    font-family: DM Sans, sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    text-align: center;
+}
+
+.blacked{
+    background-color:rgb(34, 32, 32);
+    width: 70%;
+    
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    text-align: center;
+    padding: 24px;
+}
+
+.start_div{
+    width: 40%;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+.start_div .info {
+    font-size: 1rem;
+}
+
+.blacked p{
+    color: rgb(219, 219, 219);
+    font-size: 1.5rem;
+}
+
+
+.mode{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+
+    border: none;
+    color: white;
+
+    transition: 0.2s ease-in-out;
+}
+
+.change{
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: rgb(73, 146, 70);
+    color: white;
+
+    font-size: 17px;
+
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.instructions{
+    color: rgb(211, 209, 209);
+    padding: 24px;
+}
+
+.instructions .info{
+    text-align: left;
+    font-size: 1rem;
+}
+
+#change:hover{
+    background-color: rgb(71, 129, 69);
+}
+
+.insane{
+    transition: 0.5s ease-in-out;
+    background-color:rgb(126, 15, 201);
+}
+
+.hard{
+    transition: 0.5s ease-in-out;
+    background-color:rgb(240, 57, 57);
+}
+
+.medium{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(214, 191, 60);
+}
+
+.easy{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(73, 146, 70);
+}
+
+.insane:hover{
+    transition: 0.5s ease-in-out;
+    background-color:rgb(84, 0, 139);
+}
+
+.hard:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(209, 38, 38);
+}
+
+.medium:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(192, 139, 25);
+}
+
+.easy:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(64, 141, 49);
+}
+
+.won #close{
+    position: absolute;
+    position: top right;
+    top: 0;
+    right: 24px;
+    cursor: pointer;
+}
+
+#countdown {
+    font-size: 5rem;
+    color: rgb(219, 219, 219);
+    font-weight: 400;
+}
+
+.black{
+    position: absolute;
+
+    width: 100vw;
+    height: 170vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin:0;
+
+    overflow: auto;
+
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.list{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    margin-top: 10px;
+}
+
+.item.cat{
+    font-weight: bold;
+    background-color: rgba(12, 11, 11, 0.363);
+}
+
+.input_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8em;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);;
+    border: 1px solid;
+    border-color: rgb(104, 104, 104);
+    color: rgb(104, 104, 104);
+}
+
+.input:focus{
+    outline: none;
+    transition: 0.2s;
+    border-color: rgb(145, 145, 145);
+}
+
+#invia{
+    padding: 24px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    border: 1px solid;
+    color: rgb(104, 104, 104);
+    margin-top: 10px;
+}
+
+#invia:hover{
+    transition: 0.2s;
+    border-color: rgb(145, 145, 145);
+    cursor: pointer;
+}
+
+#invia:active{
+    transition: 0.2s;
+    border-color: rgb(180, 180, 180);
+    background-color: rgb(20, 20, 20);
+}
+
+.item{
+    display: flex;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 20px;
+    border-radius: 10px ;
+    border: 1px solid;
+    border-color: rgb(104, 104, 104);
+    justify-content: space-around;
+}
+
+.right{
+    background-color: rgb(73, 146, 70);
+}
+
+.almost{
+    background-color: rgb(214, 191, 60);
+}
